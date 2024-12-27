@@ -339,7 +339,7 @@ header.shadow{
         padding: 50px 4%;
     }
     .home-text h1{
-        font-size: 2.4rem;
+        font-size: 2 rem;
     }
 }
 @media (max-width:768px){
@@ -372,4 +372,39 @@ header.shadow{
     .navbar.active{
         top: 100%;
     }
+    .about{
+        align-items: center;
+    }
+}
+@media (max-width:360px){
+    header{
+        padding: 11px 4%;
+    }
+    .logo img {
+        width: 45px;
+    }
+    .home-text {
+        padding-top: 15px;
+    }
+    .home-text h1{
+        font-size: 1.4rem;
+    }
+    .home-text p{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .about-img {
+        order: 2;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .about-text h2{
+        font-size: 1.2rem;
+    }
+    .heading h2{
+        font-size: 1.2rem;
+    }
+
+
 }
